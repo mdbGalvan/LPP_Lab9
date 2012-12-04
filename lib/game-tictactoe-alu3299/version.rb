@@ -1,7 +1,5 @@
-module Game
-  module Tictactoe
-    module Alu3299
+# File : version.rb
+
+module Tictactoe
       VERSION = "0.0.1"
-    end
-  end
 end
