@@ -5,7 +5,7 @@ require "test/unit"
 
 class TestDumbPlayer < Test::Unit::TestCase
 	def setup
-		@dp = TicTacToe::DumbPlayer.new("X")
+		@dp = Tictactoe::DumbPlayer.new("X")
 	end
 
 	def test_implements_move

@@ -5,7 +5,7 @@ require "test/unit"
 
 class TestHumanPlayer < Test::Unit::TestCase
 	def setup
-		@hp = TicTacToe::HumanPlayer.new("X")
+		@hp = Tictactoe::HumanPlayer.new("X")
 	end
 
 	def test_implements_move

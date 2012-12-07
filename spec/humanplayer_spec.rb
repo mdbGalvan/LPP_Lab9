@@ -2,9 +2,9 @@
 
 require "game-tictactoe-alu3299"
 
-describe TicTacToe::HumanPlayer do
+describe Tictactoe::HumanPlayer do
 	before :each do
-		@hp = TicTacToe::HumanPlayer.new("X")
+		@hp = Tictactoe::HumanPlayer.new("X")
 	end
 
 	it "Debe existir un metodo move" do

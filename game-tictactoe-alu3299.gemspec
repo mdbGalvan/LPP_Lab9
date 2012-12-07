@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'game-tictactoe-alu3299/version'
+require 'tictactoe/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "game-tictactoe-alu3299"
-  gem.version       = Game::Tictactoe::Alu3299::VERSION
+  gem.version       = Tictactoe::VERSION
   gem.authors       = ["mdbgalvan"]
   gem.email         = ["magomenlopark@gmail.com"]
   gem.description   = %q{Gem of game tic-tac-toe}
